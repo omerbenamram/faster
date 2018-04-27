@@ -12,7 +12,7 @@ repository = "https://github.com/AdamNiederer/faster"
 readme = "README.org"
 
 [dependencies]
-stdsimd = "*"
+stdsimd = { git = "https://github.com/rust-lang-nursery/stdsimd.git", branch="master"}
 
 [features]
 no-std = []
